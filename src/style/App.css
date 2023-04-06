@@ -1,0 +1,65 @@
+/* App.css */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  #user-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #user-info img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  #user-repos {
+    margin-top: 20px;
+  }
+  
+  #user-repos h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #user-repos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #user-repos li {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

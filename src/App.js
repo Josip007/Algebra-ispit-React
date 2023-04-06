@@ -20,7 +20,6 @@ function App() {
   return (
     <div>
       <SearchForm onSubmit={handleSearch} />
-
       {userData && (
         <div id="user-info">
           <h2>Korisničko ime: {userData.login}</h2>
@@ -30,7 +29,6 @@ function App() {
           <p>Bio: {userData.bio}</p>
         </div>
       )}
-
       {userRepos && (
         <div id="user-repos">
           <h3>Repozitoriji korisnika {userData.login}:</h3>

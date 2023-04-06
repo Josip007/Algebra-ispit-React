@@ -1,4 +1,3 @@
-/* App.css */
 form {
     display: flex;
     flex-direction: column;
@@ -6,7 +5,7 @@ form {
     margin: 20px 0;
   }
   
-  input[type="text"] {
+  input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -14,7 +13,7 @@ form {
     margin-bottom: 10px;
   }
   
-  button[type="submit"] {
+  button {
     padding: 10px 20px;
     background-color: #0070f3;
     color: #fff;
